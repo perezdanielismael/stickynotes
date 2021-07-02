@@ -1,0 +1,35 @@
+
+.inicio{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.titleInit{
+    align-self: center;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    border-radius: 4px;
+}
+
+@media screen and (max-width:770px){
+    .inicio{
+        flex-direction: column-reverse;
+        height: 100vh;
+    }
+    .titleInit{
+        margin-top: 30px;
+    }
+    .imagen{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:425px){
+    .imagen{
+        margin: auto;
+        margin-top: 10px;
+    }
+}

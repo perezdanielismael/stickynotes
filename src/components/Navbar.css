@@ -1,0 +1,19 @@
+.logo{
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+   
+}
+
+.menu{
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+@media screen and (max-width: 470px){
+    .menu{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 10px;
+    }
+}

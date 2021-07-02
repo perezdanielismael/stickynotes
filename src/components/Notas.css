@@ -1,0 +1,77 @@
+.Alta{
+   border-right: 8px solid red;
+   background-color: rgb(247, 247, 255);
+}
+.Alta:hover{
+   background-color: rgb(232, 232, 253);
+}
+.Media{
+   border-right: 8px solid rgb(255, 238, 0);
+   background-color: rgb(247, 247, 255);
+}
+.Media:hover{
+   background-color: rgb(232, 232, 253);
+}
+.Baja{
+   border-right: 8px solid rgb(30, 223, 30);
+   background-color: rgb(247, 247, 255);
+}
+.Baja:hover{
+   background-color: rgb(232, 232, 253);
+}
+.titulos{   
+   font-family: 'Nunito', sans-serif;
+   color: black;
+}
+.inputMail1{
+   background-color: #ffffff;
+   border: 1px solid #0275d8;
+   color: rgb(26, 8, 109);
+}
+
+.inputMail1:focus{
+   background-color: #0088ff33 ;
+   transition: all 0.7s ease;
+   color: rgb(8, 8, 8);
+}
+.select{
+   color: rgb(131, 128, 128);
+}
+.select:focus{
+   background-color: #0088ff33;
+   color: black;
+}
+.tituloTarea{
+   text-transform: uppercase;
+   font-family: 'Kalam', cursive;
+   border-bottom: 1px solid black;
+ 
+}
+.p-Tarea{
+   font-family: 'Kalam', cursive;
+   font-size: 25px;
+}
+
+.fecha{
+   font-family: 'Kalam', cursive;  
+}
+h6{
+   font-family: 'Kalam', cursive;  
+   font-size: 20px;
+}
+
+@media screen and (max-width:425px){
+   .titulos{
+      margin-top: 10px;
+   }
+   .tituloTarea{
+    font-size: 15px;
+   }
+   .p-Tarea{
+      font-size: 20px;
+   }
+   h6{
+      font-size: 15px;
+      text-align: left;
+   }
+}
